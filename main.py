@@ -5,6 +5,7 @@ def getInput():
 
 
 def makeReverse(numbers):
+    reversed = []
     while numbers:
         reversed.append(numbers.pop())
     return reversed
