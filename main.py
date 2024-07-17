@@ -1,18 +1,13 @@
 
 def getInput():
-    """
-    ########################################
-    Code Your Program here
-    ########################################
-    """
+   userInput = input("Enter values: ")
+   return [int(value) for value in userInput.split()]
 
 
 def makeReverse(numbers):
-    """
-    ########################################
-    Code Your Program here
-    ########################################
-    """
+    while numbers:
+        reversed.append(numbers.pop())
+    return reversed
 
 
 def main():
